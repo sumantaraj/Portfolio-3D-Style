@@ -29,6 +29,43 @@
         color: white;
         font-size: 14px;
       }
+@media (max-width: 767px) {
+  /* Adjust font sizes for better readability on small screens */
+  body {
+    font-size: 16px; /* Adjust as needed */
+  }
+
+  /* Make sure elements stack vertically on small screens */
+  .container {
+    display: block; /* Change display to block or flex-direction to column */
+    /* Other adjustments for stacking content vertically */
+  }
+
+  /* Adjust margins, paddings, and spacings for mobile layout */
+  .section {
+    margin: 10px; /* Adjust as needed */
+    padding: 10px; /* Adjust as needed */
+  }
+
+  /* Hide or adjust certain elements that might not fit well on small screens */
+  .sidebar {
+    display: none; /* Hide sidebar on mobile */
+  }
+
+  /* Adjust images to fit within the screen width and maintain aspect ratio */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Adjust navigation menu for better touch interactions */
+  .nav-menu {
+    display: none; /* Hide main navigation menu on mobile */
+  }
+  .mobile-menu {
+    display: block; /* Show a mobile-friendly navigation menu */
+  }
+}
 
       body {
         background-color: black;
